@@ -6,20 +6,40 @@
     <title>Mi Página Web</title>
     <style>
     body {
-    font-family: 'Arial', sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-    color: #eee;
-    background-color: #2c3e50; /* Azul oscuro */
+        font-family: 'Arial', sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+        color: #eee;
+        background-color: #2c3e50; /* Azul oscuro */
+    }
 
     img {
-        border-radius: 50%;
+            border-radius: 50%;
+            display: inline-block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+    #sobre-mí{
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
     }
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
     }
-   
+
+    li{
+        display: line;
+        margin-right: 10px;
+    }
+
     header {
-    text-align: center;
-    margin-bottom: 20px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     h1, h2 {
@@ -41,7 +61,7 @@
     }
 
     p {
-    color: #bdc3c7; /* Plata */
+        color: #bdc3c7; /* Plata */
     }
 
     /* Estilos específicos para la química */
@@ -76,16 +96,24 @@
 <body>
     <header>
         <h1>Mi Página Web</h1>
+        <nav>
+            <ul>
+                <il><a href="#inicio">Inicio</a></il> /
+                <il><a href="#sobre-mí">Sobre mí</a></il> /
+                <il><a href="#proyectos">Proyectos</a></il> /
+                <il><a href="#contacto">Contacto</a></il>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre-mí">Sobre mí</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+    <section id="sobre-mí">
+        <img src="yo.jpg" alt="yoxd" width="150px" height="150px">
+        <h2>Salvador Ariza Angeles</h2>
+        <p>
+            ¡Hola! Soy <b><strong style="color:#27ae60;">Salvador Ariza</strong></b>, apasionado aspirante a químico con experiencia en cursos relacionados. Busco oportunidades emocionantes para contribuir al futuro químico.</p>
+        </section>
+
+
 
     <section id="inicio">
         
@@ -93,14 +121,9 @@
         <p>En este sitio Web encontrarás algunos de mis proyectos de química con explicaciones procedimientos bien detallados con imagenes de referencia</p>
     </section>
 
-    <section id="sobre-mí">
-        <h2>Sobre mí</h2>
-        <p>
-            ¡Hola! Soy <b><strong style="color:#27ae60;">Salvador Ariza</strong></b>, apasionado aspirante a químico con experiencia en cursos relacionados. Busco oportunidades emocionantes para contribuir al futuro.</p>
-            <img src="yo.jpg" alt="yoxd" width="150px" height="150px">
-        </section>
 
-    <section id="servicios">
+
+    <section id="proyectos">
         <h2>Servicios</h2>
         <ul>
             <li><a href="https://akio107a.github.io/pagina_web_personal/proyecto.html">Sintetización de ácido sulfúrico</a></li>
