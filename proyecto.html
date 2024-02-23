@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Proyecto</title>
     <style>
+        nav a{
+            margin: 7px;
+            color: black;
+            text-align: center;
+        }
+        a{
+            color: #27ae60;
+        }
+        nav{
+            width: 60px;
+            height: 30px;
+            background: #27ae60;
+            border: 2px solid #1f4b31;
+            position: fixed;
+            top: 0;
+        }
+        h2{
+            position: sticky;
+            top: 0;
+        }
         body {
             font-family: 'Arial', sans-serif;
             margin: 20px;
@@ -79,6 +99,9 @@
     </style>
 </head>
 <body>
+    <nav>
+        <a href="https://akio107a.github.io/pagina_web_personal/">Menú</a>
+    </nav>
 
     <section class="proyecto">
         <h2>Ácido sulfúrico H<sub>2</sub>SO<sub>4</sub></h2>
@@ -89,15 +112,19 @@
         <p>Este fue mi primer intento de sintetizar ácido sulfúrico. Quiero agregar este procedimiento ya que es una de las tantas muestras que la prueba y el error son parte del camino. Por eso mismo agregué una sección para mencionar cada fallo que visto.</p>
 
         <h4>PRECAUCIONES</h4>
-        <li><b>En la reacción se sintetiza un gas que puede molestar a los ojos y si se inhala puede formar ácidos dentro del sistema respiratorio.</b></li>
+        <ul>
+            <li><b>En la reacción se sintetiza un gas que puede molestar a los ojos y si se inhala puede formar ácidos dentro del sistema respiratorio.</b></li>
         <li><b>En la última forma se trata con un sistema aislado, la acumulación de presión al momento de formar el gas SO<su>2</su> puede llegar a reventar el sistema causando daños por quemaduras químicas</b></li>
+        </ul>
 
         <h4>MATERIALES</h4>
-        <li>Azufre</li>
-        <li>Peróxido de hidrógeno (H<sub>2</sub>O<sub>2</sub>)</li>
-        <li>Vasos para pesar</li>
-        <li>Tapa</li>
-        <li>Báscula</li>
+        <ul>
+            <li>Azufre</li>
+            <li>Peróxido de hidrógeno (H<sub>2</sub>O<sub>2</sub>)</li>
+            <li>Vasos para pesar</li>
+            <li>Tapa</li>
+            <li>Báscula</li>
+        </ul>
 
         <h4>ECUACIÓN</h4>
         <p>S<sub>(s)</sub>+H<sub>2</sub>O<sub>2(l)</sub>→SO<sub>2(g)</sub>+H<sub>2</sub>O<sub>(l)</sub></p>
@@ -111,11 +138,13 @@
             <li>Esperar la formación del dióxido de azufre</li>
         </ol>
 
-        <section id="PROCEDIMIENTO DETALLADO">
+        <div id="PROCEDIMIENTO DETALLADO">
             <h4>PROCEDIMIENTO DETALLADO</h4>
             <p>Tener en cuenta la siguiente proporción: por cada gramo de peróxido de hidrógeno habrán 0.03g de azufre</p>
-            <li>1gH<sub>2</sub>O<sub>2</sub>/0.03gS</li>
-            <li>1mlH<sub>2</sub>O<sub>2</sub>/0.0012gS</li>
+            <ul>
+                <li>1gH<sub>2</sub>O<sub>2</sub>/0.03gS</li>
+                <li>1mlH<sub>2</sub>O<sub>2</sub>/0.0012gS</li>
+            </ul>
             <ol>
                 <li>Pesar una cantidad de peróxido de hidrógeno y calcular así la cantidad necesaria de azufre</li>
                 <li>Pesar una parte proporcional de azufre conforme al peróxido de hidrógeno</li>
@@ -123,13 +152,15 @@
                 <li>Esperar la formación del dióxido de azufre</li>
                 <p>No se forma el compuesto que se quiere sintetizar (H<sub>2</sub>SO<sub>4</sub>)</p>
             </ol>
-        </section>
+        </div>
 
         <h4>EXPERIMENTO FALLIDO: FALLOS Y OBSERVACIONES</h4>
-        <li>No se forma ninguna liberación de gas; por lo tanto no se obtuvo el gas (SO<sub>2</sub>)</li>
-        <li>La mezcla de agua con azufre forma una especia de repulsión</li>
-        <li>El azufre no se puede disolver en temperaturas ambiente ni con el calor de una vela</li>
-        <li>La solución obtenida no reacciona con bases; por lo tanto no se puede tener ácido en la muestra (prueba de bicarbonato sódico viejo con grupos pero sin impurezas)</li>
+        <ul>
+            <li>No se forma ninguna liberación de gas; por lo tanto no se obtuvo el gas (SO<sub>2</sub>)</li>
+            <li>La mezcla de agua con azufre forma una especia de repulsión</li>
+            <li>El azufre no se puede disolver en temperaturas ambiente ni con el calor de una vela</li>
+            <li>La solución obtenida no reacciona con bases; por lo tanto no se puede tener ácido en la muestra (prueba de bicarbonato sódico viejo con grupos pero sin impurezas)</li>
+        </ul>
 
         <!--segunda forma-->
         <h3>Segunda forma: Correcto</h3>
@@ -137,23 +168,27 @@
         <p>Así mismo me gustaría aclarar que el procedimiento será muy sencillo en donde se utilizarán materiales que la mayoría de personas tiene en casa</p>
         
         <h4>MATERIALES</h4>
-        <li>Lata de refresco</li>
-        <li>Boca de botella</li>
-        <li>Botella de plástico de preferencia ya que se podra notar el aumento en presión</li>
-        <li>Manguera (puede ser de algún atomizador)</li>
-        <li>Fuente de calor</li>
-        <li>Peróxido de hidrógeno</li>
-        <li>Azufre</li>
+        <ul>
+            <li>Lata de refresco</li>
+            <li>Boca de botella</li>
+            <li>Botella de plástico de preferencia ya que se podra notar el aumento en presión</li>
+            <li>Manguera (puede ser de algún atomizador)</li>
+            <li>Fuente de calor</li>
+            <li>Peróxido de hidrógeno</li>
+            <li>Azufre</li>
+        </ul>
         <p><b>En caso de notar un pequeño aumento en la presión destapar lentamente</b></p>
 
         <h4>SISTEMA</h4>
         <img src="https://raw.githubusercontent.com/Akio107A/pagina_web_personal/main/sistema%20para%20%C3%A1cido.jpg" alt="imagen de referencia">
-        <li><b>Hacer un hueco a la jeringa en el tercer cuartil</b></li>
-        <li><b>hacer un hueco a la lata</b></li>
-        <li><b>Cortar la parte superior de la lata</b></li>
-        <li><b>Cortar la botella</b></li>
-        <li><b>Hacer huecos a las tapas</b></li>
-        <li><b>Aislar el sistema con cinta</b></li>
+        <ul>
+            <li><b>Hacer un hueco a la jeringa en el tercer cuartil</b></li>
+            <li><b>hacer un hueco a la lata</b></li>
+            <li><b>Cortar la parte superior de la lata</b></li>
+            <li><b>Cortar la botella</b></li>
+            <li><b>Hacer huecos a las tapas</b></li>
+            <li><b>Aislar el sistema con cinta</b></li>
+        </ul>
 
         <h4>ESTEQUIMETRÍA</h4>
         <p>Recomiendo leer el anterior apartado de <a href="#PROCEDIMIENTO DETALLADO">procedimiento detallado</a></p>
